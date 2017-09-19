@@ -1,8 +1,9 @@
 //es5
-var xyz = ["x", "y", "z"];
-var abc = ["a", "b", "c"];
-console.log(abc.concat(xyz));
+var xyz1 = ["x", "y", "z"];
+var abc1 = ["a", "b", "c"];
+console.log(abc1.concat(xyz1));
 //es6
-var xyz = ["x", "y", "z"];
+var xyz2 = ["x", "y", "z"];
+var abc2 = ["a", "b", "c", ...xyz2];
 
-console.log(abc);
+console.log(abc2);

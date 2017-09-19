@@ -6,7 +6,7 @@ function f1(obj) {
 }
 f1({name: "John", age: 30});
 //es6
-function f2({name, age}) {
-    console.log(name, age);
+function f2({name:[me], age}) {
+    console.log(me, age);
 }
-f2({name: "John", age: 30});
+f2({name: ["John", "mary"], age: 30});

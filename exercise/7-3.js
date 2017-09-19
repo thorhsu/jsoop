@@ -10,8 +10,12 @@ Object.defineProperty(typeof global === "object" ? global : window, "DATA1", {
 DATA1.content = "xyz";
 console.log(DATA1.content);
 //es6
+const DATA2 = {
+    content: "abc"
+}
 
-
-
+//物件型態時，內容是可以被修改的。但不能重新assign值
 DATA2.content = "xyz";
 console.log(DATA2.content);
+//會出錯
+DATA2 = {};

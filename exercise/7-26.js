@@ -28,20 +28,15 @@ class Rectangle2 {
         this._width = width;
         this._height = height;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    set width(width) {
+        this._width = width;
+    }
+    get width() {
+        return this._width;
+    }
+    get area() {
+        return this._width * this._height;
+    }
 
 }
 var r = new Rectangle2(50, 20)

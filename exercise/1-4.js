@@ -1,0 +1,10 @@
+console.log(Boolean(""));
+console.log(Boolean(0));
+console.log(Boolean(100));
+console.log(Boolean(Infinity));
+console.log(Boolean(-Infinity));
+console.log(Boolean([]));
+console.log(Boolean({a:"10"}));
+console.log(Boolean(NaN));
+console.log(Boolean(undefined));
+console.log(Boolean(null));

@@ -9,9 +9,9 @@
 })();
 //es6
 {
-    
+    function foo(){return 1;}
     {
-        
+        function foo(){return 2;};
         console.log(foo());
     }
     console.log(foo());

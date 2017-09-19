@@ -17,7 +17,10 @@ CCCCC\n\
 DDDDD";
 console.log(text);
 //es6
-
+var text = `AAAAA
+BBBBB
+CCCCC
+DDDDD`;
 
 
 

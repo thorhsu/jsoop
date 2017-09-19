@@ -6,6 +6,6 @@ item = [z, a];
 console.log(item);
 //es6
 var item = ["a", "z"];
-
+var [a, b] = item;
 item = [z, a];
 console.log(item);

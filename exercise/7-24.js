@@ -41,18 +41,20 @@ class Shape2 {
     }
 }
 
+class Rectangle2 extends Shape2 {
+    constructor(id, x, y, width, height){
+        super(id, x, y);
+        this.width = width;
+        this.height = height;
+    }
+}
+class Circle2 extends Shape2{
+    constructor(id, x, y, radius){
+        super(id, x, y);
+        this.radius = radius;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+}
 var a = new Rectangle2("a", 0, 0, 100, 100);
 console.log(a);
 var b = new Circle2("b", 0, 0, 100);

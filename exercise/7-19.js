@@ -21,5 +21,6 @@ var obj = {
     age: 30,
     gender: "male"
 };
-
-console.log(firstName, lastName, age, gender);
+var {name: {lastName, firstName}, age, gender: sex} = obj; //sex也會變成male
+console.log(firstName, lastName, age, gender, sex);
+// console.log(name);
